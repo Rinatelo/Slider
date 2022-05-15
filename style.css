@@ -95,3 +95,10 @@ button:focus {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+
+@media (max-width: 600px) {
+	.sidebar h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    writing-mode: vertical-rl;
+  }
